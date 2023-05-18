@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function dashSep(str){
+let string=str;
+   let chars=string.spilt(" ");
+
+   let res=chars.map((x)=>{
+    if(x==="-"){
+        delete x;
+        ++x.toUpperCase();
+    }
+   })
+return JASON.stringfy(res);
+}
+console.log(dashSep("abhi-shek"));
+
+    </script>
+</body>
+</html>
